@@ -4,4 +4,4 @@ def evenOrOdd(x):
     else:
        print("odd")
 
-#Call eveOrOdd function  
+#Call function evenOrOdd
