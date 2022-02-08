@@ -1,7 +1,9 @@
-def commonletters(x,y):
+def common_letters(x,y):
+    letters = [] 
     for i in x:
-        for j in y:
-            if j == i:
-                print("Common letters:" + i)
+        if i in y:
+            letters.extend(i)
+    letters = ",".join(letters)
+    print("Common letters:" + str(letters))
 
-#Call function commonletters and input two strings
+
