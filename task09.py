@@ -1,10 +1,10 @@
-vowel = "aeiouAEIOU"
+vowels = "aeiouAEIOU"
 
 def print_vowels(string):
-    vow = [] 
+    vowel = [] 
     for i in string:
-        if i in vowel:
-            vow.extend(i)
-    vow = ",".join(vow) 
-    print("Vowels:" + str(vow))
+        if i in vowels:
+            vowel.extend(i)
+    vowel = ",".join(vowel) 
+    print("Vowels:" + str(vowel))
 
