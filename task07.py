@@ -1,9 +1,9 @@
 
-def convert(celsius):
+def convert_to_fahrenheit(celsius):
     fahrenheit = celsius * 9/5 + 32
-    print(fahrenheit)
+    return fahrenheit
 
 
-def convert(fahrenheit):
+def convert_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
-    print(celsius) 
+    return celsius
