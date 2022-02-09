@@ -11,8 +11,8 @@ def time_convertor(t):
         print(str(t//60) + " hours, 1 minute" )
     elif t//60 >1 and t%60 >1:
         print(str(t//60) + " hours," + str(t%60) + " minutes")
-    elif t < 60:
+    elif 1<t<60:
         print(str(t) + " minutes") 
-        
-
+    elif t == 1:
+        print(str(t) + " minute") 
 
