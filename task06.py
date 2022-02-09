@@ -1,9 +1,9 @@
 def maximum(x, y, z):
     if x > y and x > z:
-        print(x)
+        return x
     elif y > x and y > z:
-        print(y)
+        return y
     elif z > y and z > x:
-        print(z)
+        return z
         
 
